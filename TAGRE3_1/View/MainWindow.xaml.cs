@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace AppBase
+namespace TAGRE3_1.View
 {
     /// <summary>
     /// Lógica de interacción para MainWindow.xaml
@@ -43,6 +43,10 @@ namespace AppBase
                     break;
                 case "ItemUsuario":
                     usc = new UserControlUsuario();
+                    GridContenedor.Children.Add(usc);
+                    break;
+                case "ItemEntr":
+                    usc = new DocMarketing();
                     GridContenedor.Children.Add(usc);
                     break;
                 default:

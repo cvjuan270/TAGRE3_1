@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace AppBase
+namespace TAGRE3_1.View
 {
     /// <summary>
-    /// Lógica de interacción para UserControlHome.xaml
+    /// Lógica de interacción para UserControlUsuario.xaml
     /// </summary>
-    public partial class UserControlHome : UserControl
+    public partial class UserControlUsuario : UserControl
     {
-        public UserControlHome()
+        public UserControlUsuario()
         {
             InitializeComponent();
         }
